@@ -1,0 +1,59 @@
+.body-index {
+    background: url(/Imagenes/imagenFondo.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.navbar-custom{
+    background-color: rgb(11, 8, 54);
+
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.1em;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #0ca3df;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.5s;
+  }
+  
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+  }
+
+  .select {
+    background: #0ca3df;
+        
+}
+
+.footer-custom{
+    background-color: rgb(11, 8, 54);
+}
+
+.h1-custom, .h2-custom {
+    text-shadow: black 0.3em 0.3em 0.3em
+}
+
+@media(max-width: 991px){
+    .sidebar {
+        background-color: rgb(11, 8, 54);
+    }
+}
